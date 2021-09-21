@@ -1,0 +1,17 @@
+{
+    "name": "bensz/phpunit-basic",
+    "autoload": {
+        "psr-4": {
+            "Bensz\\PhpunitBasic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyen Bence",
+            "email": "bence325@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
