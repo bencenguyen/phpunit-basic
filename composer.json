@@ -2,7 +2,7 @@
     "name": "bensz/phpunit-basic",
     "autoload": {
         "psr-4": {
-            "Bensz\\PhpunitBasic\\": "src/"
+            "App\\" : "src/"
         }
     },
     "authors": [
