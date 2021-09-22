@@ -36,20 +36,13 @@ class OrderRepositoryTest extends TestCase
         $this->assertTrue(true);
     }
 
-
-    /**
-     * @test
-     */
-    public function it_should_throw_no_such_element_exception_when_no_element_is_found()
+    public function testShouldThrowNoSuchElementExceptionWhenNoElementIsFound()
     {
         $this->expectException(NoSuchElementException::class);
         $this->underTest->findOrder(5);
     }
 
-    /**
-     * @test
-     */
-    public function it_should_return_created_element_when_found()
+    public function testShouldReturnCreatedElementWhenFound()
     {
         $id       = 5;
         $address  = "address";
