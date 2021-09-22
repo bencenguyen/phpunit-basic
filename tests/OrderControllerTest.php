@@ -17,7 +17,7 @@ class OrderControllerTest extends TestCase
     public function setUp(): void
     {
         $this->mockService = $this->createMock(OrderService::class);
-        $this->underTest = new OrderController($this->mockService);
+        $this->underTest   = new OrderController($this->mockService);
     }
 
     /**
